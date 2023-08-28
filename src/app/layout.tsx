@@ -1,9 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Head from "next/head";
+import { Jost } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const jost = Jost({ subsets: ["latin"], weight: ["700", "600", "400", "500"] });
 
 export const metadata: Metadata = {
   title: "feedback app",
@@ -17,10 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="canonical" href="https://fonts.google.com/specimen/Jost" />
-      </Head>
-      <body suppressHydrationWarning={true} className={inter.className}>
+      <body suppressHydrationWarning={true} className={jost.className}>
         {children}
       </body>
     </html>

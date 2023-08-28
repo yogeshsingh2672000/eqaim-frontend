@@ -4,7 +4,6 @@
 
 body {
   background-color: #f7f8fd;
-  font-family: "Jost", sans-serif;
 }
 
 .sort_style {
@@ -13,7 +12,6 @@ body {
 
 .typo_h1 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -23,7 +21,6 @@ body {
 
 .typo_h2 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +30,6 @@ body {
 
 .typo_h3 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -43,7 +39,6 @@ body {
 
 .typo_h4 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -53,7 +48,6 @@ body {
 
 .typo_body1 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +56,6 @@ body {
 
 .typo_body2 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -71,7 +64,6 @@ body {
 
 .typo_body3 {
   color: #3a4374;
-  font-family: Jost;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
