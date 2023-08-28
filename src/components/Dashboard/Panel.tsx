@@ -20,11 +20,15 @@ function Panel() {
         <div className="flex gap-[38px]">
           <div className="flex gap-[16px]">
             <img src={suggestionIcon.src} alt="icon-suggestions" />
-            <div>6 suggestions </div>
+            <div className="typo_h3 !text-white">6 suggestions </div>
           </div>
           <div className="relative">
-            <button onClick={() => setOptionStatus(!optionStatus)}>
-              Sort by: <span>{setselected}</span> {optionStatus ? "^" : ""}
+            <button
+              className="typo_h4 !text-white !font-[400]"
+              onClick={() => setOptionStatus(!optionStatus)}
+            >
+              Sort by: <span className="!font-[700]">{setselected}</span>{" "}
+              {optionStatus ? "^" : ""}
             </button>
             {optionStatus && (
               <div className="sort_style absolute bg-white rounded-[10px] divide-[#3A4374] divide-y w-[255px] h-[192px] mt-[42px]">
@@ -56,7 +60,7 @@ function Panel() {
             )}
           </div>
         </div>
-        <button className="bg-[#AD1FEA] px-[24px] py-[12px] rounded-[10px] hover:bg-[#C75AF6]">
+        <button className="bg-[#AD1FEA] px-[24px] py-[12px] rounded-[10px] typo_h4 !text-white hover:bg-[#C75AF6]">
           +Add Feedback
         </button>
       </div>

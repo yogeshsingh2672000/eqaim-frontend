@@ -44,18 +44,24 @@ function Feed(props: ProductRequests) {
               className="bg-[#F2F4FF] hover:bg-[#CFD7FF] rounded-[10px] flex flex-col items-center justify-center gap-[8px] w-[40px] h-[53px]"
             >
               <img src={upvote.src} alt="upvote" />
-              <div>{productRequest.upvotes}</div>
+              <div className="typo_body3 !font-[700]">
+                {productRequest.upvotes}
+              </div>
             </button>
             <div className="w-full">
-              <div className="pb-[4px]">{productRequest.title}</div>
-              <div className="pb-[12px]">{productRequest.description}</div>
-              <span className="bg-[#F2F4FF] px-[16px] py-[5px] rounded-[10px]">
+              <div className="pb-[4px] typo_h3">{productRequest.title}</div>
+              <div className="pb-[12px] typo_body1">
+                {productRequest.description}
+              </div>
+              <span className="bg-[#F2F4FF] px-[16px] py-[5px] typo_body3 rounded-[10px] !text-[#4661E6]">
                 {productRequest.category}
               </span>
             </div>
-            <div className="flex gap-[8px]">
+            <div className="flex gap-[8px] items-center justify-center">
               <img src={comment.src} alt="comment" />
-              <div>{productRequest.comments.length}</div>
+              <div className="typo_body1 !font-[700] w-[18px] h-[16px]">
+                {productRequest.comments.length}
+              </div>
             </div>
           </div>
         </div>

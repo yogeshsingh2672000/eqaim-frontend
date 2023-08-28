@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <main className="flex w-full px-[165px] py-[94px] gap-[30px]">
-      <div className="flex flex-col gap-[24px]">
+      <div className="flex flex-col gap-[24px] max-w-[255px]">
         <LogoBoard />
         <Categories categories={categories} />
         <Roadmap status={status} />
